@@ -1,0 +1,740 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		170F0B7E202B2BEC00D92FA6 /* Sheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170F0B7D202B2BEC00D92FA6 /* Sheet.swift */; };
+		171313861FE949CD0065B641 /* PatientsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171313851FE949CC0065B641 /* PatientsViewCell.swift */; };
+		171544F82139C12300D09B6D /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171544F62139C12300D09B6D /* CameraController.swift */; };
+		171544F92139C12300D09B6D /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171544F72139C12300D09B6D /* CameraView.swift */; };
+		1715E7F2202E1A5B005DB2DB /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1715E7F1202E1A5A005DB2DB /* ResultViewController.swift */; };
+		17307DA6202CA6FA00A0A8C1 /* SheetInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17307DA5202CA6F900A0A8C1 /* SheetInfoController.swift */; };
+		17307DA8202CE88800A0A8C1 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17307DA7202CE88800A0A8C1 /* Question.swift */; };
+		17307DAB202CEFD600A0A8C1 /* QuestionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17307DAA202CEFD600A0A8C1 /* QuestionController.swift */; };
+		17307DAD202CF5B200A0A8C1 /* QuizNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17307DAC202CF5B200A0A8C1 /* QuizNavigationController.swift */; };
+		17307DB1202CF96200A0A8C1 /* QuestionCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17307DB0202CF96200A0A8C1 /* QuestionCells.swift */; };
+		175293B91FFD1FE700C8D681 /* AddGalleryExamController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175293B81FFD1FE700C8D681 /* AddGalleryExamController.swift */; };
+		175AF0721FFBBC6300A188E2 /* GaleryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175AF0711FFBBC6300A188E2 /* GaleryController.swift */; };
+		17685E05205AA3E0000F8F51 /* FirebaseEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17685E01205AA3E0000F8F51 /* FirebaseEntity.swift */; };
+		17685E06205AA3E0000F8F51 /* FirebaseDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17685E02205AA3E0000F8F51 /* FirebaseDataProvider.swift */; };
+		17685E07205AA3E0000F8F51 /* FirebaseDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17685E03205AA3E0000F8F51 /* FirebaseDAO.swift */; };
+		17685E08205AA3E0000F8F51 /* FirebaseSingleChildProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17685E04205AA3E0000F8F51 /* FirebaseSingleChildProvider.swift */; };
+		17685E11205AA400000F8F51 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17685E0A205AA3FF000F8F51 /* AuthManager.swift */; };
+		17685E12205AA400000F8F51 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17685E0C205AA3FF000F8F51 /* LoginViewModel.swift */; };
+		17685E13205AA400000F8F51 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17685E0E205AA400000F8F51 /* SignupViewController.swift */; };
+		17685E14205AA400000F8F51 /* SignupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17685E0F205AA400000F8F51 /* SignupViewModel.swift */; };
+		17685E15205AA400000F8F51 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17685E10205AA400000F8F51 /* LoginViewController.swift */; };
+		17731CD32029FAA600DEC184 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17731CD22029FAA400DEC184 /* HomeViewController.swift */; };
+		461383EB20B4A02B0057CFE1 /* ConceitosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461383EA20B4A02A0057CFE1 /* ConceitosController.swift */; };
+		4680251E20B5C00F00AD830F /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4680251D20B5C00F00AD830F /* TutorialViewController.swift */; };
+		4680252020B5C0AA00AD830F /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4680251F20B5C0AA00AD830F /* AboutViewController.swift */; };
+		4680252420B5CBE100AD830F /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4680252320B5CBE100AD830F /* StringExtensions.swift */; };
+		4680252620B5CC5000AD830F /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4680252520B5CC5000AD830F /* AlertHelper.swift */; };
+		46BA70AD206AE11E003F152C /* SheetInfoNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BA70AC206AE11E003F152C /* SheetInfoNavigationController.swift */; };
+		46DBE5702074FBE800702DF4 /* ConceitosTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DBE56F2074FBE800702DF4 /* ConceitosTableController.swift */; };
+		46E8229A207BAD4A00BB793B /* FisiopatogeniaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E82299207BAD4A00BB793B /* FisiopatogeniaController.swift */; };
+		46F6B77820594D8800B790C9 /* RetinopatiaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F6B77720594D8800B790C9 /* RetinopatiaController.swift */; };
+		46F8EEA3208A1BBD000EB91A /* RoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F8EEA2208A1BBD000EB91A /* RoundView.swift */; };
+		7CEBB41FF9B409DF005FD99D /* Pods_AppOftamologia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A989FD2F64BC6BA58D645D /* Pods_AppOftamologia.framework */; };
+		A209D4951FC6F6CA00B7D45D /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A209D4941FC6F6CA00B7D45D /* Patient.swift */; };
+		A209D49B1FC6F8CC00B7D45D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A209D49A1FC6F8CC00B7D45D /* User.swift */; };
+		A209D4A11FC70FA200B7D45D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A209D4A01FC70FA200B7D45D /* MainViewController.swift */; };
+		A209D4AF1FC71E0F00B7D45D /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A209D4AE1FC71E0F00B7D45D /* MBProgressHUD.m */; };
+		A20A4E3F200501A700D1F762 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20A4E3E200501A700D1F762 /* CollectionViewCell.swift */; };
+		A22EE7BB1FCC5A3B0060B44E /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22EE7BA1FCC5A3B0060B44E /* Image.swift */; };
+		A292196A1FCC57170067665C /* ImagemExamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29219691FCC57170067665C /* ImagemExamesViewController.swift */; };
+		A2C780251FCC784F00EB8C37 /* FirebaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C780241FCC784F00EB8C37 /* FirebaseHelper.swift */; };
+		A2D8115B1FC45FCC0022A98F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D8115A1FC45FCC0022A98F /* AppDelegate.swift */; };
+		A2D811601FC45FCC0022A98F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2D8115E1FC45FCC0022A98F /* Main.storyboard */; };
+		A2D811621FC45FCC0022A98F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2D811611FC45FCC0022A98F /* Assets.xcassets */; };
+		A2D811651FC45FCC0022A98F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2D811631FC45FCC0022A98F /* LaunchScreen.storyboard */; };
+		A2D8118A1FC4638A0022A98F /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D811891FC4638A0022A98F /* Colors.swift */; };
+		A2D8118C1FC4638F0022A98F /* Shadows.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D8118B1FC4638F0022A98F /* Shadows.swift */; };
+		A2D8118E1FC4639D0022A98F /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D8118D1FC4639D0022A98F /* GradientView.swift */; };
+		A2D811941FC474F80022A98F /* PatientTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D811931FC474F80022A98F /* PatientTableController.swift */; };
+		A2D811961FC481920022A98F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A2D811951FC481910022A98F /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10A989FD2F64BC6BA58D645D /* Pods_AppOftamologia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppOftamologia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		170F0B7D202B2BEC00D92FA6 /* Sheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sheet.swift; sourceTree = "<group>"; };
+		171313851FE949CC0065B641 /* PatientsViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientsViewCell.swift; sourceTree = "<group>"; };
+		171544F62139C12300D09B6D /* CameraController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		171544F72139C12300D09B6D /* CameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		1715E7F1202E1A5A005DB2DB /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		17307DA5202CA6F900A0A8C1 /* SheetInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetInfoController.swift; sourceTree = "<group>"; };
+		17307DA7202CE88800A0A8C1 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		17307DAA202CEFD600A0A8C1 /* QuestionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionController.swift; sourceTree = "<group>"; };
+		17307DAC202CF5B200A0A8C1 /* QuizNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizNavigationController.swift; sourceTree = "<group>"; };
+		17307DB0202CF96200A0A8C1 /* QuestionCells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionCells.swift; sourceTree = "<group>"; };
+		175293B81FFD1FE700C8D681 /* AddGalleryExamController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddGalleryExamController.swift; sourceTree = "<group>"; };
+		175AF0711FFBBC6300A188E2 /* GaleryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaleryController.swift; sourceTree = "<group>"; };
+		17685E01205AA3E0000F8F51 /* FirebaseEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseEntity.swift; sourceTree = "<group>"; };
+		17685E02205AA3E0000F8F51 /* FirebaseDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseDataProvider.swift; sourceTree = "<group>"; };
+		17685E03205AA3E0000F8F51 /* FirebaseDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseDAO.swift; sourceTree = "<group>"; };
+		17685E04205AA3E0000F8F51 /* FirebaseSingleChildProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseSingleChildProvider.swift; sourceTree = "<group>"; };
+		17685E0A205AA3FF000F8F51 /* AuthManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		17685E0C205AA3FF000F8F51 /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		17685E0E205AA400000F8F51 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		17685E0F205AA400000F8F51 /* SignupViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewModel.swift; sourceTree = "<group>"; };
+		17685E10205AA400000F8F51 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		17731CD22029FAA400DEC184 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		253EF8CAF8B554CBDC5DEB2F /* Pods-AppOftamologia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppOftamologia.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppOftamologia/Pods-AppOftamologia.release.xcconfig"; sourceTree = "<group>"; };
+		461383EA20B4A02A0057CFE1 /* ConceitosController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConceitosController.swift; sourceTree = "<group>"; };
+		4680251D20B5C00F00AD830F /* TutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		4680251F20B5C0AA00AD830F /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		4680252320B5CBE100AD830F /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		4680252520B5CC5000AD830F /* AlertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
+		46AF45EF20AF03A20088177A /* AppOftamologia.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppOftamologia.entitlements; sourceTree = "<group>"; };
+		46BA70AC206AE11E003F152C /* SheetInfoNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetInfoNavigationController.swift; sourceTree = "<group>"; };
+		46DBE56F2074FBE800702DF4 /* ConceitosTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConceitosTableController.swift; sourceTree = "<group>"; };
+		46E82299207BAD4A00BB793B /* FisiopatogeniaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FisiopatogeniaController.swift; sourceTree = "<group>"; };
+		46F6B77720594D8800B790C9 /* RetinopatiaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetinopatiaController.swift; sourceTree = "<group>"; };
+		46F8EEA2208A1BBD000EB91A /* RoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundView.swift; sourceTree = "<group>"; };
+		46F8EEA9208A3099000EB91A /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		4962774D5E017C13A0588002 /* Pods_AppOftamologiaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppOftamologiaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A209D4941FC6F6CA00B7D45D /* Patient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
+		A209D49A1FC6F8CC00B7D45D /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A209D4A01FC70FA200B7D45D /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		A209D4A61FC71B6300B7D45D /* AppOftamologia-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "AppOftamologia-Bridging-Header.h"; path = "AppOftamologia/AppOftamologia-Bridging-Header.h"; sourceTree = "<group>"; };
+		A209D4AD1FC71E0F00B7D45D /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = Pods/MBProgressHUD/MBProgressHUD.h; sourceTree = "<group>"; };
+		A209D4AE1FC71E0F00B7D45D /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = Pods/MBProgressHUD/MBProgressHUD.m; sourceTree = "<group>"; };
+		A20A4E3E200501A700D1F762 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		A22EE7BA1FCC5A3B0060B44E /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		A29219691FCC57170067665C /* ImagemExamesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagemExamesViewController.swift; sourceTree = "<group>"; };
+		A2C780241FCC784F00EB8C37 /* FirebaseHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseHelper.swift; sourceTree = "<group>"; };
+		A2D811571FC45FCC0022A98F /* AppOftamologia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppOftamologia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2D8115A1FC45FCC0022A98F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2D8115F1FC45FCC0022A98F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2D811611FC45FCC0022A98F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2D811641FC45FCC0022A98F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2D811661FC45FCC0022A98F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2D811891FC4638A0022A98F /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		A2D8118B1FC4638F0022A98F /* Shadows.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shadows.swift; sourceTree = "<group>"; };
+		A2D8118D1FC4639D0022A98F /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		A2D811931FC474F80022A98F /* PatientTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientTableController.swift; sourceTree = "<group>"; };
+		A2D811951FC481910022A98F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CE727E3BF9173C64417C4329 /* Pods_AppOftamologiaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppOftamologiaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA6DFD369429833B5D730990 /* Pods-AppOftamologia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppOftamologia.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppOftamologia/Pods-AppOftamologia.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2D811541FC45FCC0022A98F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CEBB41FF9B409DF005FD99D /* Pods_AppOftamologia.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13483D02D0FF976983B9E461 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA6DFD369429833B5D730990 /* Pods-AppOftamologia.debug.xcconfig */,
+				253EF8CAF8B554CBDC5DEB2F /* Pods-AppOftamologia.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		17307DA9202CEF6200A0A8C1 /* Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				17307DB0202CF96200A0A8C1 /* QuestionCells.swift */,
+				17307DAA202CEFD600A0A8C1 /* QuestionController.swift */,
+				17307DAC202CF5B200A0A8C1 /* QuizNavigationController.swift */,
+				1715E7F1202E1A5A005DB2DB /* ResultViewController.swift */,
+			);
+			name = Quiz;
+			sourceTree = "<group>";
+		};
+		17685E00205AA3E0000F8F51 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				17685E01205AA3E0000F8F51 /* FirebaseEntity.swift */,
+				17685E02205AA3E0000F8F51 /* FirebaseDataProvider.swift */,
+				17685E03205AA3E0000F8F51 /* FirebaseDAO.swift */,
+				17685E04205AA3E0000F8F51 /* FirebaseSingleChildProvider.swift */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		17685E09205AA3FF000F8F51 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				17685E0A205AA3FF000F8F51 /* AuthManager.swift */,
+				17685E0B205AA3FF000F8F51 /* Login */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		17685E0B205AA3FF000F8F51 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				17685E10205AA400000F8F51 /* LoginViewController.swift */,
+				17685E0C205AA3FF000F8F51 /* LoginViewModel.swift */,
+				17685E0D205AA400000F8F51 /* Signup */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		17685E0D205AA400000F8F51 /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+				17685E0E205AA400000F8F51 /* SignupViewController.swift */,
+				17685E0F205AA400000F8F51 /* SignupViewModel.swift */,
+			);
+			path = Signup;
+			sourceTree = "<group>";
+		};
+		17731CD02029FA0400DEC184 /* CapturarImagem */ = {
+			isa = PBXGroup;
+			children = (
+				171544F62139C12300D09B6D /* CameraController.swift */,
+				171544F72139C12300D09B6D /* CameraView.swift */,
+				A20A4E3E200501A700D1F762 /* CollectionViewCell.swift */,
+				175AF0711FFBBC6300A188E2 /* GaleryController.swift */,
+				A2D811931FC474F80022A98F /* PatientTableController.swift */,
+				A29219691FCC57170067665C /* ImagemExamesViewController.swift */,
+				175293B81FFD1FE700C8D681 /* AddGalleryExamController.swift */,
+			);
+			name = CapturarImagem;
+			sourceTree = "<group>";
+		};
+		17731CD12029FA1A00DEC184 /* Laminas */ = {
+			isa = PBXGroup;
+			children = (
+				170F0B7D202B2BEC00D92FA6 /* Sheet.swift */,
+				17731CD22029FAA400DEC184 /* HomeViewController.swift */,
+				17307DA5202CA6F900A0A8C1 /* SheetInfoController.swift */,
+			);
+			name = Laminas;
+			sourceTree = "<group>";
+		};
+		39C2C137850C60980A1553FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10A989FD2F64BC6BA58D645D /* Pods_AppOftamologia.framework */,
+				CE727E3BF9173C64417C4329 /* Pods_AppOftamologiaTests.framework */,
+				4962774D5E017C13A0588002 /* Pods_AppOftamologiaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		46E82298207BACFE00BB793B /* ConceitosGerais */ = {
+			isa = PBXGroup;
+			children = (
+				46DBE56F2074FBE800702DF4 /* ConceitosTableController.swift */,
+				46E82299207BAD4A00BB793B /* FisiopatogeniaController.swift */,
+				461383EA20B4A02A0057CFE1 /* ConceitosController.swift */,
+			);
+			name = ConceitosGerais;
+			sourceTree = "<group>";
+		};
+		A209D4901FC6F2FA00B7D45D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		A209D4931FC6F69100B7D45D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A22EE7BA1FCC5A3B0060B44E /* Image.swift */,
+				A209D4941FC6F6CA00B7D45D /* Patient.swift */,
+				A209D49A1FC6F8CC00B7D45D /* User.swift */,
+				17307DA7202CE88800A0A8C1 /* Question.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A2D8114E1FC45FCC0022A98F = {
+			isa = PBXGroup;
+			children = (
+				A209D4A61FC71B6300B7D45D /* AppOftamologia-Bridging-Header.h */,
+				A209D4AD1FC71E0F00B7D45D /* MBProgressHUD.h */,
+				A209D4AE1FC71E0F00B7D45D /* MBProgressHUD.m */,
+				A2D8115A1FC45FCC0022A98F /* AppDelegate.swift */,
+				A209D4901FC6F2FA00B7D45D /* Utilities */,
+				A2D811591FC45FCC0022A98F /* AppOftamologia */,
+				A2D811581FC45FCC0022A98F /* Products */,
+				13483D02D0FF976983B9E461 /* Pods */,
+				39C2C137850C60980A1553FF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A2D811581FC45FCC0022A98F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2D811571FC45FCC0022A98F /* AppOftamologia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2D811591FC45FCC0022A98F /* AppOftamologia */ = {
+			isa = PBXGroup;
+			children = (
+				46AF45EF20AF03A20088177A /* AppOftamologia.entitlements */,
+				17685E00205AA3E0000F8F51 /* Firebase */,
+				17685E09205AA3FF000F8F51 /* Authentication */,
+				A209D4931FC6F69100B7D45D /* Model */,
+				A2D811921FC474B90022A98F /* Controllers */,
+				A2D811881FC463670022A98F /* View */,
+				A2D811611FC45FCC0022A98F /* Assets.xcassets */,
+				A2C780241FCC784F00EB8C37 /* FirebaseHelper.swift */,
+				A2D811631FC45FCC0022A98F /* LaunchScreen.storyboard */,
+				A2D811661FC45FCC0022A98F /* Info.plist */,
+				A2D811951FC481910022A98F /* GoogleService-Info.plist */,
+			);
+			path = AppOftamologia;
+			sourceTree = "<group>";
+		};
+		A2D811881FC463670022A98F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A2D8115E1FC45FCC0022A98F /* Main.storyboard */,
+				A2D8118D1FC4639D0022A98F /* GradientView.swift */,
+				A2D8118B1FC4638F0022A98F /* Shadows.swift */,
+				171313851FE949CC0065B641 /* PatientsViewCell.swift */,
+				A2D811891FC4638A0022A98F /* Colors.swift */,
+				46F8EEA2208A1BBD000EB91A /* RoundView.swift */,
+				4680252320B5CBE100AD830F /* StringExtensions.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A2D811921FC474B90022A98F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				46E82298207BACFE00BB793B /* ConceitosGerais */,
+				A209D4A01FC70FA200B7D45D /* MainViewController.swift */,
+				4680251D20B5C00F00AD830F /* TutorialViewController.swift */,
+				46F6B77720594D8800B790C9 /* RetinopatiaController.swift */,
+				46BA70AC206AE11E003F152C /* SheetInfoNavigationController.swift */,
+				17307DA9202CEF6200A0A8C1 /* Quiz */,
+				17731CD12029FA1A00DEC184 /* Laminas */,
+				17731CD02029FA0400DEC184 /* CapturarImagem */,
+				4680251F20B5C0AA00AD830F /* AboutViewController.swift */,
+				4680252520B5CC5000AD830F /* AlertHelper.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2D811561FC45FCC0022A98F /* AppOftamologia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2D8117F1FC45FCC0022A98F /* Build configuration list for PBXNativeTarget "AppOftamologia" */;
+			buildPhases = (
+				D0D5E43D8AC15E34409EDA9C /* [CP] Check Pods Manifest.lock */,
+				A2D811531FC45FCC0022A98F /* Sources */,
+				A2D811541FC45FCC0022A98F /* Frameworks */,
+				A2D811551FC45FCC0022A98F /* Resources */,
+				9228775BAB1FAA18FB0044DA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppOftamologia;
+			productName = AppOftamologia;
+			productReference = A2D811571FC45FCC0022A98F /* AppOftamologia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2D8114F1FC45FCC0022A98F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Unichristus;
+				TargetAttributes = {
+					A2D811561FC45FCC0022A98F = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 6WNK298C62;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = A2D811521FC45FCC0022A98F /* Build configuration list for PBXProject "AppOftamologia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"pt-BR",
+			);
+			mainGroup = A2D8114E1FC45FCC0022A98F;
+			productRefGroup = A2D811581FC45FCC0022A98F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2D811561FC45FCC0022A98F /* AppOftamologia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2D811551FC45FCC0022A98F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D811651FC45FCC0022A98F /* LaunchScreen.storyboard in Resources */,
+				A2D811961FC481920022A98F /* GoogleService-Info.plist in Resources */,
+				A2D811621FC45FCC0022A98F /* Assets.xcassets in Resources */,
+				A2D811601FC45FCC0022A98F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9228775BAB1FAA18FB0044DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AppOftamologia/Pods-AppOftamologia-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CarbonKit/CarbonKit.framework",
+				"${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework",
+				"${BUILT_PRODUCTS_DIR}/Doppelganger/Doppelganger.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/INSPhotoGallery/INSPhotoGallery.framework",
+				"${BUILT_PRODUCTS_DIR}/ImageSlideshow/ImageSlideshow.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MGSwipeTableCell/MGSwipeTableCell.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework",
+				"${BUILT_PRODUCTS_DIR}/STPopup/STPopup.framework",
+				"${BUILT_PRODUCTS_DIR}/ScrollableGraphView/ScrollableGraphView.framework",
+				"${BUILT_PRODUCTS_DIR}/UICircularProgressRing/UICircularProgressRing.framework",
+				"${BUILT_PRODUCTS_DIR}/UPCarouselFlowLayout/UPCarouselFlowLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/ZoomTransition/ZoomTransition.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+				"${BUILT_PRODUCTS_DIR}/paper-onboarding/paper_onboarding.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CarbonKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DZNEmptyDataSet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Doppelganger.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/INSPhotoGallery.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageSlideshow.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MGSwipeTableCell.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCLAlertView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/STPopup.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ScrollableGraphView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UICircularProgressRing.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UPCarouselFlowLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZoomTransition.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/paper_onboarding.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppOftamologia/Pods-AppOftamologia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0D5E43D8AC15E34409EDA9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppOftamologia-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2D811531FC45FCC0022A98F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17685E14205AA400000F8F51 /* SignupViewModel.swift in Sources */,
+				4680252620B5CC5000AD830F /* AlertHelper.swift in Sources */,
+				46F8EEA3208A1BBD000EB91A /* RoundView.swift in Sources */,
+				171544F92139C12300D09B6D /* CameraView.swift in Sources */,
+				17307DA6202CA6FA00A0A8C1 /* SheetInfoController.swift in Sources */,
+				17685E07205AA3E0000F8F51 /* FirebaseDAO.swift in Sources */,
+				A292196A1FCC57170067665C /* ImagemExamesViewController.swift in Sources */,
+				171544F82139C12300D09B6D /* CameraController.swift in Sources */,
+				175293B91FFD1FE700C8D681 /* AddGalleryExamController.swift in Sources */,
+				A22EE7BB1FCC5A3B0060B44E /* Image.swift in Sources */,
+				17685E06205AA3E0000F8F51 /* FirebaseDataProvider.swift in Sources */,
+				170F0B7E202B2BEC00D92FA6 /* Sheet.swift in Sources */,
+				17307DA8202CE88800A0A8C1 /* Question.swift in Sources */,
+				17685E05205AA3E0000F8F51 /* FirebaseEntity.swift in Sources */,
+				17731CD32029FAA600DEC184 /* HomeViewController.swift in Sources */,
+				17685E11205AA400000F8F51 /* AuthManager.swift in Sources */,
+				171313861FE949CD0065B641 /* PatientsViewCell.swift in Sources */,
+				17307DB1202CF96200A0A8C1 /* QuestionCells.swift in Sources */,
+				46E8229A207BAD4A00BB793B /* FisiopatogeniaController.swift in Sources */,
+				17685E08205AA3E0000F8F51 /* FirebaseSingleChildProvider.swift in Sources */,
+				A2D8118C1FC4638F0022A98F /* Shadows.swift in Sources */,
+				A2D8118E1FC4639D0022A98F /* GradientView.swift in Sources */,
+				1715E7F2202E1A5B005DB2DB /* ResultViewController.swift in Sources */,
+				A2D8118A1FC4638A0022A98F /* Colors.swift in Sources */,
+				A209D4951FC6F6CA00B7D45D /* Patient.swift in Sources */,
+				17685E12205AA400000F8F51 /* LoginViewModel.swift in Sources */,
+				A209D4AF1FC71E0F00B7D45D /* MBProgressHUD.m in Sources */,
+				175AF0721FFBBC6300A188E2 /* GaleryController.swift in Sources */,
+				17307DAB202CEFD600A0A8C1 /* QuestionController.swift in Sources */,
+				17685E13205AA400000F8F51 /* SignupViewController.swift in Sources */,
+				461383EB20B4A02B0057CFE1 /* ConceitosController.swift in Sources */,
+				4680252420B5CBE100AD830F /* StringExtensions.swift in Sources */,
+				4680251E20B5C00F00AD830F /* TutorialViewController.swift in Sources */,
+				46DBE5702074FBE800702DF4 /* ConceitosTableController.swift in Sources */,
+				A2D8115B1FC45FCC0022A98F /* AppDelegate.swift in Sources */,
+				A20A4E3F200501A700D1F762 /* CollectionViewCell.swift in Sources */,
+				17685E15205AA400000F8F51 /* LoginViewController.swift in Sources */,
+				46BA70AD206AE11E003F152C /* SheetInfoNavigationController.swift in Sources */,
+				A2C780251FCC784F00EB8C37 /* FirebaseHelper.swift in Sources */,
+				4680252020B5C0AA00AD830F /* AboutViewController.swift in Sources */,
+				A209D49B1FC6F8CC00B7D45D /* User.swift in Sources */,
+				A2D811941FC474F80022A98F /* PatientTableController.swift in Sources */,
+				46F6B77820594D8800B790C9 /* RetinopatiaController.swift in Sources */,
+				17307DAD202CF5B200A0A8C1 /* QuizNavigationController.swift in Sources */,
+				A209D4A11FC70FA200B7D45D /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A2D8115E1FC45FCC0022A98F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2D8115F1FC45FCC0022A98F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2D811631FC45FCC0022A98F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2D811641FC45FCC0022A98F /* Base */,
+				46F8EEA9208A3099000EB91A /* pt-BR */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2D8117D1FC45FCC0022A98F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		A2D8117E1FC45FCC0022A98F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2D811801FC45FCC0022A98F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA6DFD369429833B5D730990 /* Pods-AppOftamologia.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = AppOftamologia/AppOftamologia.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6WNK298C62;
+				INFOPLIST_FILE = AppOftamologia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.lit.AppOftalmologia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AppOftamologia/AppOftamologia-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		A2D811811FC45FCC0022A98F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 253EF8CAF8B554CBDC5DEB2F /* Pods-AppOftamologia.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = AppOftamologia/AppOftamologia.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6WNK298C62;
+				INFOPLIST_FILE = AppOftamologia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.lit.AppOftalmologia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AppOftamologia/AppOftamologia-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2D811521FC45FCC0022A98F /* Build configuration list for PBXProject "AppOftamologia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D8117D1FC45FCC0022A98F /* Debug */,
+				A2D8117E1FC45FCC0022A98F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2D8117F1FC45FCC0022A98F /* Build configuration list for PBXNativeTarget "AppOftamologia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D811801FC45FCC0022A98F /* Debug */,
+				A2D811811FC45FCC0022A98F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2D8114F1FC45FCC0022A98F /* Project object */;
+}

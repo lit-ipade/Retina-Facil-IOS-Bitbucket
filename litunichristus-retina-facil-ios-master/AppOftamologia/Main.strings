@@ -1,0 +1,378 @@
+
+/* Class = "UITableViewSection"; footerTitle = "Fonte : Classificação AAO (2001)"; ObjectID = "0OY-V7-UIs"; */
+"0OY-V7-UIs.footerTitle" = "Fonte : Classificação AAO (2001)";
+
+/* Class = "UITableViewSection"; headerTitle = "DM tipo 2"; ObjectID = "0OY-V7-UIs"; */
+"0OY-V7-UIs.headerTitle" = "DM tipo 2";
+
+/* Class = "UILabel"; text = "Capturar Imagem"; ObjectID = "0Og-3g-gUN"; */
+"0Og-3g-gUN.text" = "Capturar Imagem";
+
+/* Class = "UILabel"; text = "Sem RD, RDNP leve a moderada – 3 a 12 meses\nRDNP severa ou pior- 1 a 3 meses"; ObjectID = "0UG-No-OPx"; */
+"0UG-No-OPx.text" = "Sem RD, RDNP leve a moderada – 3 a 12 meses\nRDNP severa ou pior- 1 a 3 meses";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "21L-s2-Tcj"; */
+"21L-s2-Tcj.placeholder" = "Email";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "2S7-2l-8oh"; */
+"2S7-2l-8oh.text" = "Label";
+
+/* Class = "UILabel"; text = "Ausência de espessamento da retina ou exsudatos duros no polo posterior"; ObjectID = "3de-8P-ChW"; */
+"3de-8P-ChW.text" = "Ausência de espessamento da retina ou exsudatos duros no polo posterior";
+
+/* Class = "UILabel"; text = "Bem vindo"; ObjectID = "3i0-6l-v9q"; */
+"3i0-6l-v9q.text" = "Bem vindo";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "3uf-b9-oDS"; */
+"3uf-b9-oDS.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UIButton"; normalTitle = "Cadastre-se"; ObjectID = "4hP-DU-hw8"; */
+"4hP-DU-hw8.normalTitle" = "Cadastre-se";
+
+/* Class = "UILabel"; text = "  Edema macular leve"; ObjectID = "4is-z7-tGq"; */
+"4is-z7-tGq.text" = "  Edema macular leve";
+
+/* Class = "UIBarButtonItem"; title = "Concluir"; ObjectID = "4wZ-9m-I9N"; */
+"4wZ-9m-I9N.title" = "Concluir";
+
+/* Class = "UILabel"; text = "  RDP com doença ocular   diabética avançada"; ObjectID = "5CO-OO-daD"; */
+"5CO-OO-daD.text" = "  RDP com doença ocular   diabética avançada";
+
+/* Class = "UILabel"; text = "  RDP alto risco"; ObjectID = "6TN-cq-ncy"; */
+"6TN-cq-ncy.text" = "  RDP alto risco";
+
+/* Class = "UILabel"; text = "10"; ObjectID = "7E3-oX-hTy"; */
+"7E3-oX-hTy.text" = "10";
+
+/* Class = "UITableViewController"; title = "Epidemiologia"; ObjectID = "7VQ-33-XwT"; */
+"7VQ-33-XwT.title" = "Epidemiologia";
+
+/* Class = "UIViewController"; title = "Sobre"; ObjectID = "9N2-zj-ici"; */
+"9N2-zj-ici.title" = "Sobre";
+
+/* Class = "UILabel"; text = "Retinopatia Diabética Proliferativa (RDP)"; ObjectID = "9ax-b1-Fzt"; */
+"9ax-b1-Fzt.text" = "Retinopatia Diabética Proliferativa (RDP)";
+
+/* Class = "UILabel"; accessibilityLabel = "Nome Paciente"; ObjectID = "9kE-BD-dn7"; */
+"9kE-BD-dn7.accessibilityLabel" = "Nome Paciente";
+
+/* Class = "UILabel"; text = "Nome Paciente"; ObjectID = "9kE-BD-dn7"; */
+"9kE-BD-dn7.text" = "Nome Paciente";
+
+/* Class = "UILabel"; text = "a"; ObjectID = "9wn-mi-HDL"; */
+"9wn-mi-HDL.text" = "a";
+
+/* Class = "UILabel"; text = "Título"; ObjectID = "AQJ-8K-nP4"; */
+"AQJ-8K-nP4.text" = "Título";
+
+/* Class = "UILabel"; text = "No momento do diagnóstico"; ObjectID = "B47-vo-grp"; */
+"B47-vo-grp.text" = "No momento do diagnóstico";
+
+/* Class = "UINavigationItem"; title = "Resultado"; ObjectID = "BsR-r2-Q0v"; */
+"BsR-r2-Q0v.title" = "Resultado";
+
+/* Class = "UINavigationItem"; title = "Nome paciente"; ObjectID = "ByL-T1-a69"; */
+"ByL-T1-a69.title" = "Nome paciente";
+
+/* Class = "UINavigationItem"; title = "Retina Fácil"; ObjectID = "CcP-kI-16T"; */
+"CcP-kI-16T.title" = "Retina Fácil";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "DgG-8H-Yow"; */
+"DgG-8H-Yow.title" = " ";
+
+/* Class = "UILabel"; text = "  Edema macular moderado"; ObjectID = "F9J-8E-uMg"; */
+"F9J-8E-uMg.text" = "  Edema macular moderado";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "GpR-6p-r8N"; */
+"GpR-6p-r8N.title" = " ";
+
+/* Class = "UITableViewSection"; headerTitle = "Orientações"; ObjectID = "H4B-IR-NHM"; */
+"H4B-IR-NHM.headerTitle" = "Orientações";
+
+/* Class = "UILabel"; text = "10"; ObjectID = "H7b-LL-Fy1"; */
+"H7b-LL-Fy1.text" = "10";
+
+/* Class = "UITableViewSection"; footerTitle = "Fonte : Classificação AAO (2001)"; ObjectID = "HZB-pD-HIg"; */
+"HZB-pD-HIg.footerTitle" = "Fonte : Classificação AAO (2001)";
+
+/* Class = "UITableViewSection"; headerTitle = "DM tipo 1"; ObjectID = "HZB-pD-HIg"; */
+"HZB-pD-HIg.headerTitle" = "DM tipo 1";
+
+/* Class = "UITableViewSection"; headerTitle = "Patogênese da retinopatia diabética"; ObjectID = "HjW-x2-Y3X"; */
+"HjW-x2-Y3X.headerTitle" = "Patogênese da retinopatia diabética";
+
+/* Class = "UIBarButtonItem"; title = "Logout"; ObjectID = "IeH-Zh-lWC"; */
+"IeH-Zh-lWC.title" = "Logout";
+
+/* Class = "UILabel"; text = "Somente microaneurismas"; ObjectID = "JTq-Kh-lJO"; */
+"JTq-Kh-lJO.text" = "Somente microaneurismas";
+
+/* Class = "UIBarButtonItem"; title = "1/5"; ObjectID = "JVT-sS-7aD"; */
+"JVT-sS-7aD.title" = "1/5";
+
+/* Class = "UIBarButtonItem"; title = "Salvar"; ObjectID = "Jqv-xC-hB4"; */
+"Jqv-xC-hB4.title" = "Salvar";
+
+/* Class = "UILabel"; text = "  Edema macular severo"; ObjectID = "KUp-K1-Y9L"; */
+"KUp-K1-Y9L.text" = "  Edema macular severo";
+
+/* Class = "UIBarButtonItem"; title = " Resultado"; ObjectID = "LBC-XH-8Oc"; */
+"LBC-XH-8Oc.title" = " Resultado";
+
+/* Class = "UINavigationItem"; title = "Conceitos Gerais"; ObjectID = "LD7-KZ-i8G"; */
+"LD7-KZ-i8G.title" = "Conceitos Gerais";
+
+/* Class = "UILabel"; text = " A retinopatia diabética (RD) é uma das maiores complicações do Diabetes Mellitus (DM) e a principal causa de cegueira legal em pessoas na idade produtiva (20 a 74 anos). Afeta  24 a 39% dos pacientes diabéticos.  \n   Principais fatores de risco:   \nDuração do diabetes –  principal fator de prevalência - após 20 anos de doença, a RD está presente em 90% dos DM 1 e em 60% dos DM 2. \nPobre controle glicêmico- 2º fator mais importante\nTipo de DM – pacientes DM1 apresentam RD com maior frequência e  as formas mais graves\nGravidez- promove a progressão da RD\nHAS - aumenta a prevalência e a progressão da RD \nDoença renal – aumenta a prevalência e a gravidade da RD e do edema macular\nDislipidemia- maior prevalência de exsudatos duros\nObesidade e tabagismo"; ObjectID = "LeR-mx-JdC"; */
+"LeR-mx-JdC.text" = " A retinopatia diabética (RD) é uma das maiores complicações do Diabetes Mellitus (DM) e a principal causa de cegueira legal em pessoas na idade produtiva (20 a 74 anos). Afeta  24 a 39% dos pacientes diabéticos.  \n   Principais fatores de risco:   \nDuração do diabetes –  principal fator de prevalência - após 20 anos de doença, a RD está presente em 90% dos DM 1 e em 60% dos DM 2. \nPobre controle glicêmico- 2º fator mais importante\nTipo de DM – pacientes DM1 apresentam RD com maior frequência e  as formas mais graves\nGravidez- promove a progressão da RD\nHAS - aumenta a prevalência e a progressão da RD \nDoença renal – aumenta a prevalência e a gravidade da RD e do edema macular\nDislipidemia- maior prevalência de exsudatos duros\nObesidade e tabagismo";
+
+/* Class = "UITableViewSection"; footerTitle = "Fonte : Classificação AAO (2001)"; ObjectID = "MrX-7Z-OkM"; */
+"MrX-7Z-OkM.footerTitle" = "Fonte : Classificação AAO (2001)";
+
+/* Class = "UITableViewSection"; headerTitle = "Retinopatia diabética proliferativa"; ObjectID = "MrX-7Z-OkM"; */
+"MrX-7Z-OkM.headerTitle" = "Retinopatia diabética proliferativa";
+
+/* Class = "UINavigationItem"; title = "Pacientes"; ObjectID = "NIy-to-Z1w"; */
+"NIy-to-Z1w.title" = "Pacientes";
+
+/* Class = "UILabel"; text = "Anualmente"; ObjectID = "Ofs-Cd-1KZ"; */
+"Ofs-Cd-1KZ.text" = "Anualmente";
+
+/* Class = "UIButton"; normalTitle = "Pular"; ObjectID = "Ohw-lM-Lwl"; */
+"Ohw-lM-Lwl.normalTitle" = "Pular";
+
+/* Class = "UIButton"; normalTitle = "Cadastrar"; ObjectID = "Olg-ZT-9Cq"; */
+"Olg-ZT-9Cq.normalTitle" = "Cadastrar";
+
+/* Class = "UILabel"; text = "5 anos após o diagnóstico"; ObjectID = "PLn-4Z-F2V"; */
+"PLn-4Z-F2V.text" = "5 anos após o diagnóstico";
+
+/* Class = "UILabel"; text = "IRMA = alterações microvasculares intrarretinianas  RD =retinopatia diabética RDP= retinopatia diabética proliferativa; RDNP= retinopatia diabética não proliferativa\n\nO edema macular , os exsudatos duros e  as manchas algodonosas  podem ocorrer em qualquer fase da RD e não fazem parte da classificação\n\n"; ObjectID = "Qgf-cj-iXZ"; */
+"Qgf-cj-iXZ.text" = "IRMA = alterações microvasculares intrarretinianas  RD =retinopatia diabética RDP= retinopatia diabética proliferativa; RDNP= retinopatia diabética não proliferativa\n\nO edema macular , os exsudatos duros e  as manchas algodonosas  podem ocorrer em qualquer fase da RD e não fazem parte da classificação\n\n";
+
+/* Class = "UILabel"; text = "  RDP baixo risco"; ObjectID = "RBf-Iq-d9s"; */
+"RBf-Iq-d9s.text" = "  RDP baixo risco";
+
+/* Class = "UILabel"; text = "Estágio intermediário entre a leve e a grave"; ObjectID = "RU2-EV-uk7"; */
+"RU2-EV-uk7.text" = "Estágio intermediário entre a leve e a grave";
+
+/* Class = "UITextField"; placeholder = "Selecione a data"; ObjectID = "S7A-1Z-1MN"; */
+"S7A-1Z-1MN.placeholder" = "Selecione a data";
+
+/* Class = "UINavigationItem"; title = "Nova Imagem"; ObjectID = "SFm-od-h7d"; */
+"SFm-od-h7d.title" = "Nova Imagem";
+
+/* Class = "UILabel"; text = "  Edema  macular  ausente"; ObjectID = "T2k-GQ-AYf"; */
+"T2k-GQ-AYf.text" = "  Edema  macular  ausente";
+
+/* Class = "UITextField"; placeholder = "Senha"; ObjectID = "T46-Ux-VCh"; */
+"T46-Ux-VCh.placeholder" = "Senha";
+
+/* Class = "UILabel"; text = "Questões incorretas"; ObjectID = "UAX-T0-94Q"; */
+"UAX-T0-94Q.text" = "Questões incorretas";
+
+/* Class = "UILabel"; text = "Informações"; ObjectID = "UlO-iL-wOC"; */
+"UlO-iL-wOC.text" = "Informações";
+
+/* Class = "UILabel"; text = "Dano celular- vários mecanismos ( acúmulo de sorbitol, stress oxidativo, produtos da glicação, ativação da proteinoquinase C) \nCapilaropatia - perda de pericitos, espessamento da membrana basal, proliferação de células endoteliais dos capilares. A disfunção dos capilares se manifesta com vazamentos e oclusão. \nNeovascularização-  a oclusão capilar leva à  hipóxia retiniana, que estimula a produção de fatores angiogênicos (VEGF), ocasionando a formação de neovasos, na tentativa de revascularizar a retina."; ObjectID = "Upl-OT-Cea"; */
+"Upl-OT-Cea.text" = "Dano celular- vários mecanismos ( acúmulo de sorbitol, stress oxidativo, produtos da glicação, ativação da proteinoquinase C) \nCapilaropatia - perda de pericitos, espessamento da membrana basal, proliferação de células endoteliais dos capilares. A disfunção dos capilares se manifesta com vazamentos e oclusão. \nNeovascularização-  a oclusão capilar leva à  hipóxia retiniana, que estimula a produção de fatores angiogênicos (VEGF), ocasionando a formação de neovasos, na tentativa de revascularizar a retina.";
+
+/* Class = "UIButton"; normalTitle = "Continuar"; ObjectID = "VXY-3N-DGm"; */
+"VXY-3N-DGm.normalTitle" = "Continuar";
+
+/* Class = "UILabel"; text = "Espessamento da retina aparente ou exsudatos duros no polo posterior"; ObjectID = "VYi-ja-WpD"; */
+"VYi-ja-WpD.text" = "Espessamento da retina aparente ou exsudatos duros no polo posterior";
+
+/* Class = "UILabel"; text = "Nome do teste"; ObjectID = "W4w-DB-6r9"; */
+"W4w-DB-6r9.text" = "Nome do teste";
+
+/* Class = "UINavigationItem"; title = "Fundo de Olho Normal"; ObjectID = "XRQ-SQ-cgv"; */
+"XRQ-SQ-cgv.title" = "Fundo de Olho Normal";
+
+/* Class = "UITableViewSection"; footerTitle = "Fonte : Classificação AAO (2001)"; ObjectID = "Y0k-hI-1Lx"; */
+"Y0k-hI-1Lx.footerTitle" = "Fonte : Classificação AAO (2001)";
+
+/* Class = "UITableViewSection"; headerTitle = "Escala de severidade do edema macular diabético"; ObjectID = "Y0k-hI-1Lx"; */
+"Y0k-hI-1Lx.headerTitle" = "Escala de severidade do edema macular diabético";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "ZTp-Hd-LW1"; */
+"ZTp-Hd-LW1.placeholder" = "Email";
+
+/* Class = "UIBarButtonItem"; title = "5"; ObjectID = "arE-ss-BXG"; */
+"arE-ss-BXG.title" = "5";
+
+/* Class = "UILabel"; text = "  Avaliação Inicial"; ObjectID = "bPD-RZ-cyP"; */
+"bPD-RZ-cyP.text" = "  Avaliação Inicial";
+
+/* Class = "UITextField"; placeholder = "Confirmação de senha"; ObjectID = "bVR-HZ-ecM"; */
+"bVR-HZ-ecM.placeholder" = "Confirmação de senha";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "baa-fs-dhf"; */
+"baa-fs-dhf.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UILabel"; text = "Recomendação do exame de fundoscopia para diabético- Rastreamento da retinopatia diabética\n\n\n"; ObjectID = "boy-hG-Mec"; */
+"boy-hG-Mec.text" = "Recomendação do exame de fundoscopia para diabético- Rastreamento da retinopatia diabética\n\n\n";
+
+/* Class = "UILabel"; text = "  Avaliação Inicial"; ObjectID = "c7E-Rd-8rQ"; */
+"c7E-Rd-8rQ.text" = "  Avaliação Inicial";
+
+/* Class = "UILabel"; text = "A RD é uma das alterações microcirculatórias  do Diabetes mellitus e deriva de 03 fatores principais : \n    Lesões da parede vascular\n    Alterações no fluxo sanguÍneo\n    Alterações plaquetárias\n \nA combinação desses 03 fatores principais  origina  as lesões clínicas da RD:\n"; ObjectID = "c7v-AQ-TBb"; */
+"c7v-AQ-TBb.text" = "A RD é uma das alterações microcirculatórias  do Diabetes mellitus e deriva de 03 fatores principais : \n    Lesões da parede vascular\n    Alterações no fluxo sanguÍneo\n    Alterações plaquetárias\n \nA combinação desses 03 fatores principais  origina  as lesões clínicas da RD:\n";
+
+/* Class = "UIViewController"; title = "Temas"; ObjectID = "cO1-CP-1wV"; */
+"cO1-CP-1wV.title" = "Temas";
+
+/* Class = "UINavigationItem"; title = "Retinopatia Diabética"; ObjectID = "cQy-pH-HyE"; */
+"cQy-pH-HyE.title" = "Retinopatia Diabética";
+
+/* Class = "UILabel"; text = "Algum espessamento da retina ou exsudatos duros no polo posterior , mas distante do centro da mácula"; ObjectID = "cTs-vJ-SJu"; */
+"cTs-vJ-SJu.text" = "Algum espessamento da retina ou exsudatos duros no polo posterior , mas distante do centro da mácula";
+
+/* Class = "UILabel"; text = "A Fundoscopia para rastreamento da RD deve ser realizada anualmente e de acordo com o estágio de RD encontrado. \nÉ importante o rastreamento concomitante das demais complicações microvasculares como a doença renal diabética e a neuropatia diabética \nO médico generalista deve realizar a fundoscopia  e encaminhar o paciente ao oftalmologista sempre que observar alterações no fundo de olho \nA RDNP deve ser acompanhada com controle clínico rigoroso da glicemia ,HAS e dislipidemia\n- RDNP leve -  exame anual\n- RDNP moderada – exame semestral\n- RDNP grave-  exame trimestral\n- edema macular – exame mensal ou trimestral \nA RDP pode ser tratada com fotocoagulação à laser da retina e com injeções intravítrea  de agentes antiangiogênicos - inibidores do VEGF. O acompanhamento deve ser trimestral \nEm casos de hemorragia vítrea persistente e/ou descolamento tracional de retina, o tratamento deve ser imediato com agentes antiangiogênicos- inibidores do VEGF e vitrectomia via pars plana \nO edema macular pode ser tratado com fotocoagulação à laser ou agentes antiangiogênicos - inibidores do VEGF \nO risco de perda visual grave é menor que 5% se o tratamento for realizado em tempo adequado\n\n\n"; ObjectID = "dSs-Hh-fwe"; */
+"dSs-Hh-fwe.text" = "A Fundoscopia para rastreamento da RD deve ser realizada anualmente e de acordo com o estágio de RD encontrado. \nÉ importante o rastreamento concomitante das demais complicações microvasculares como a doença renal diabética e a neuropatia diabética \nO médico generalista deve realizar a fundoscopia  e encaminhar o paciente ao oftalmologista sempre que observar alterações no fundo de olho \nA RDNP deve ser acompanhada com controle clínico rigoroso da glicemia ,HAS e dislipidemia\n- RDNP leve -  exame anual\n- RDNP moderada – exame semestral\n- RDNP grave-  exame trimestral\n- edema macular – exame mensal ou trimestral \nA RDP pode ser tratada com fotocoagulação à laser da retina e com injeções intravítrea  de agentes antiangiogênicos - inibidores do VEGF. O acompanhamento deve ser trimestral \nEm casos de hemorragia vítrea persistente e/ou descolamento tracional de retina, o tratamento deve ser imediato com agentes antiangiogênicos- inibidores do VEGF e vitrectomia via pars plana \nO edema macular pode ser tratado com fotocoagulação à laser ou agentes antiangiogênicos - inibidores do VEGF \nO risco de perda visual grave é menor que 5% se o tratamento for realizado em tempo adequado\n\n\n";
+
+/* Class = "UILabel"; text = "  Edema macular presente"; ObjectID = "dmP-08-Vod"; */
+"dmP-08-Vod.text" = "  Edema macular presente";
+
+/* Class = "UITableViewSection"; headerTitle = "Mecanismos"; ObjectID = "dvK-Dk-Dn1"; */
+"dvK-Dk-Dn1.headerTitle" = "Mecanismos";
+
+/* Class = "UILabel"; text = "  RDP"; ObjectID = "fee-lP-cOd"; */
+"fee-lP-cOd.text" = "  RDP";
+
+/* Class = "UINavigationItem"; title = "Informações"; ObjectID = "gJO-Of-7m5"; */
+"gJO-Of-7m5.title" = "Informações";
+
+/* Class = "UITabBarItem"; title = "Sobre"; ObjectID = "gON-px-Q7Z"; */
+"gON-px-Q7Z.title" = "Sobre";
+
+/* Class = "UILabel"; text = "O Edema macular diabético é definido como  espessamento da retina \n\nExsudatos duros são sinais  de edema prévio ou atual\n\nO edema macular pode ocorrer em qualquer estágio da retinopatia diabética\nNão é utilizado na classificação  da  retinopatia diabética\n"; ObjectID = "gwy-Er-SrW"; */
+"gwy-Er-SrW.text" = "O Edema macular diabético é definido como  espessamento da retina \n\nExsudatos duros são sinais  de edema prévio ou atual\n\nO edema macular pode ocorrer em qualquer estágio da retinopatia diabética\nNão é utilizado na classificação  da  retinopatia diabética\n";
+
+/* Class = "UILabel"; text = "  Avaliação Inicial"; ObjectID = "h2T-De-3Gz"; */
+"h2T-De-3Gz.text" = "  Avaliação Inicial";
+
+/* Class = "UILabel"; text = "Neovasos de disco óptico (NVD) de 1/ 4 a 1/3 DD ou neovasos de retina (NVE) = 1/2 DD ou critérios de baixo risco associados a pequena hemorragia vítrea ou subhialoideia"; ObjectID = "hQL-2O-HmU"; */
+"hQL-2O-HmU.text" = "Neovasos de disco óptico (NVD) de 1/ 4 a 1/3 DD ou neovasos de retina (NVE) = 1/2 DD ou critérios de baixo risco associados a pequena hemorragia vítrea ou subhialoideia";
+
+/* Class = "UITableViewSection"; headerTitle = "Epidemiologia e fatores de risco"; ObjectID = "iE4-x8-pSS"; */
+"iE4-x8-pSS.headerTitle" = "Epidemiologia e fatores de risco";
+
+/* Class = "UIButton"; normalTitle = "Voltar"; ObjectID = "iUu-uW-xkb"; */
+"iUu-uW-xkb.normalTitle" = "Voltar";
+
+/* Class = "UILabel"; text = "  RDNP grave Esquema 4-2-1\n\n"; ObjectID = "iYL-3P-GgR"; */
+"iYL-3P-GgR.text" = "  RDNP grave Esquema 4-2-1\n\n";
+
+/* Class = "UILabel"; text = "Neovasos de disco óptico (NVD) = ou < 1/4 do diâmetro de disco (DD) ou neovasos de retina ( NVE) com área < 1/ 2 DD\n"; ObjectID = "jgQ-oX-gnP"; */
+"jgQ-oX-gnP.text" = "Neovasos de disco óptico (NVD) = ou < 1/4 do diâmetro de disco (DD) ou neovasos de retina ( NVE) com área < 1/ 2 DD\n";
+
+/* Class = "UILabel"; text = "Testes"; ObjectID = "jhL-OX-yDv"; */
+"jhL-OX-yDv.text" = "Testes";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "mIU-Gy-Ezd"; */
+"mIU-Gy-Ezd.text" = "Title";
+
+/* Class = "UILabel"; text = "  Seguimento"; ObjectID = "mwS-E4-mec"; */
+"mwS-E4-mec.text" = "  Seguimento";
+
+/* Class = "UILabel"; text = "  Seguimento"; ObjectID = "mzn-ba-xJG"; */
+"mzn-ba-xJG.text" = "  Seguimento";
+
+/* Class = "UIBarButtonItem"; title = "Próxima"; ObjectID = "o1k-oP-T33"; */
+"o1k-oP-T33.title" = "Próxima";
+
+/* Class = "UITableViewSection"; footerTitle = "Fonte : Classificação AAO (2001)"; ObjectID = "o7F-CR-ACe"; */
+"o7F-CR-ACe.footerTitle" = "Fonte : Classificação AAO (2001)";
+
+/* Class = "UITableViewSection"; headerTitle = "Gravidez tipo 1 ou tipo 2"; ObjectID = "o7F-CR-ACe"; */
+"o7F-CR-ACe.headerTitle" = "Gravidez tipo 1 ou tipo 2";
+
+/* Class = "UILabel"; text = "  Seguimento"; ObjectID = "o9Q-tE-lf8"; */
+"o9Q-tE-lf8.text" = "  Seguimento";
+
+/* Class = "UIButton"; normalTitle = "Entrar"; ObjectID = "oDX-Yc-ien"; */
+"oDX-Yc-ien.normalTitle" = "Entrar";
+
+/* Class = "UILabel"; text = "  Sem Retinopatia"; ObjectID = "p5S-8r-OgT"; */
+"p5S-8r-OgT.text" = "  Sem Retinopatia";
+
+/* Class = "UILabel"; text = "Nenhuma anormalidade"; ObjectID = "pMv-iq-dt7"; */
+"pMv-iq-dt7.text" = "Nenhuma anormalidade";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "pgw-eK-dz3"; */
+"pgw-eK-dz3.text" = "Title";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "pn3-Nr-WgP"; */
+"pn3-Nr-WgP.title" = "Item";
+
+/* Class = "UILabel"; text = "As alterações retinianas  no diabetes são progressivas  e  divididas em estágios, do mais leve ao mais grave:"; ObjectID = "q4w-XX-iEo"; */
+"q4w-XX-iEo.text" = "As alterações retinianas  no diabetes são progressivas  e  divididas em estágios, do mais leve ao mais grave:";
+
+/* Class = "UITextField"; placeholder = "Senha"; ObjectID = "qeY-8a-lLy"; */
+"qeY-8a-lLy.placeholder" = "Senha";
+
+/* Class = "UILabel"; text = "  RDNP moderada"; ObjectID = "r39-Ly-LPZ"; */
+"r39-Ly-LPZ.text" = "  RDNP moderada";
+
+/* Class = "UILabel"; text = "Clique para mais informações"; ObjectID = "rIa-Qd-Uox"; */
+"rIa-Qd-Uox.text" = "Clique para mais informações";
+
+/* Class = "UILabel"; text = "Algum espessamento de retina ou exsudatos duros no polo posterior, próximos ao centro da mácula , mas sem envolver o centro da mácula"; ObjectID = "sVA-Os-BUN"; */
+"sVA-Os-BUN.text" = "Algum espessamento de retina ou exsudatos duros no polo posterior, próximos ao centro da mácula , mas sem envolver o centro da mácula";
+
+/* Class = "UIBarButtonItem"; title = "6"; ObjectID = "tKS-8N-W3l"; */
+"tKS-8N-W3l.title" = "6";
+
+/* Class = "UITableViewSection"; footerTitle = "Fonte : Classificação AAO (2001)"; ObjectID = "tRy-U1-Vge"; */
+"tRy-U1-Vge.footerTitle" = "Fonte : Classificação AAO (2001)";
+
+/* Class = "UITableViewSection"; headerTitle = "Classificação da Retinopatia  Diabetica"; ObjectID = "tRy-U1-Vge"; */
+"tRy-U1-Vge.headerTitle" = "Classificação da Retinopatia  Diabetica";
+
+/* Class = "UILabel"; text = "Logo após a concepção e no 1º trimestre"; ObjectID = "tYF-iE-Qha"; */
+"tYF-iE-Qha.text" = "Logo após a concepção e no 1º trimestre";
+
+/* Class = "UILabel"; text = "Qualquer dos sinais:\n-Hemorragia vítrea ou subhialoideia persistente\n-Descolamento tracional de retina\n-Neovasos de íris\n"; ObjectID = "toq-ln-DT7"; */
+"toq-ln-DT7.text" = "Qualquer dos sinais:\n-Hemorragia vítrea ou subhialoideia persistente\n-Descolamento tracional de retina\n-Neovasos de íris\n";
+
+/* Class = "UIBarButtonItem"; title = "Anterior"; ObjectID = "trc-BG-vUH"; */
+"trc-BG-vUH.title" = "Anterior";
+
+/* Class = "UILabel"; text = "Algum espessamento de retina ou exsudatos duros envolvendo o centro da mácula"; ObjectID = "tyF-IY-XIM"; */
+"tyF-IY-XIM.text" = "Algum espessamento de retina ou exsudatos duros envolvendo o centro da mácula";
+
+/* Class = "UILabel"; text = "Fundo de Olho Normal"; ObjectID = "uCV-kW-sQy"; */
+"uCV-kW-sQy.text" = "Fundo de Olho Normal";
+
+/* Class = "UILabel"; text = "Conceitos Gerais"; ObjectID = "v7R-ue-Yre"; */
+"v7R-ue-Yre.text" = "Conceitos Gerais";
+
+/* Class = "UILabel"; text = "Neovascularização  ou\nHemorragia vítrea / pré-retiniana\n"; ObjectID = "vEE-bE-Ov1"; */
+"vEE-bE-Ov1.text" = "Neovascularização  ou\nHemorragia vítrea / pré-retiniana\n";
+
+/* Class = "UILabel"; text = "Quiz"; ObjectID = "vIZ-TC-yvs"; */
+"vIZ-TC-yvs.text" = "Quiz";
+
+/* Class = "UILabel"; text = "-Mais de 20 hemorragias intrarretinianas  em cada um dos 4 quadrantes ou\n-Ensalsichamento venoso em 2 ou mais quadrantes ou\n-IRMA proeminente em 1 quadrante ou mais \n"; ObjectID = "vRU-gP-D0j"; */
+"vRU-gP-D0j.text" = "-Mais de 20 hemorragias intrarretinianas  em cada um dos 4 quadrantes ou\n-Ensalsichamento venoso em 2 ou mais quadrantes ou\n-IRMA proeminente em 1 quadrante ou mais \n";
+
+/* Class = "UILabel"; text = "Anualmente"; ObjectID = "vY1-73-WGX"; */
+"vY1-73-WGX.text" = "Anualmente";
+
+/* Class = "UILabel"; text = "Questões corretas"; ObjectID = "w2i-Eb-ccF"; */
+"w2i-Eb-ccF.text" = "Questões corretas";
+
+/* Class = "UILabel"; text = "Retinopatia Diabética"; ObjectID = "wuf-zD-AHF"; */
+"wuf-zD-AHF.text" = "Retinopatia Diabética";
+
+/* Class = "UILabel"; accessibilityLabel = "Retinopatia Diabética Não Proliferativa(RDNP)"; ObjectID = "xAU-No-dWo"; */
+"xAU-No-dWo.accessibilityLabel" = "Retinopatia Diabética Não Proliferativa(RDNP)";
+
+/* Class = "UILabel"; text = "Retinopatia Diabética Não Proliferativa (RDNP)                                   "; ObjectID = "xAU-No-dWo"; */
+"xAU-No-dWo.text" = "Retinopatia Diabética Não Proliferativa (RDNP)                                   ";
+
+/* Class = "UITableViewController"; title = "Fisiopatogenia"; ObjectID = "xMr-Re-5Dm"; */
+"xMr-Re-5Dm.title" = "Fisiopatogenia";
+
+/* Class = "UILabel"; text = "  RDNP leve"; ObjectID = "yxb-4X-DwQ"; */
+"yxb-4X-DwQ.text" = "  RDNP leve";

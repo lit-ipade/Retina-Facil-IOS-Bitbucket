@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppOftamologia/MainViewController.swift"
+            timestampString = "541004487.431278"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppOftamologia.MainViewController.__deallocating_deinit"
+                  moduleName = "AppOftamologia"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/felipemartins/Desktop/appoftamologia-ios/AppOftamologia/AppOftamologia/MainViewController.swift"
+                  timestampString = "533141445.382776"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppOftamologia.MainViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; AppOftamologia.MainViewController"
+                  moduleName = "AppOftamologia"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/felipemartins/Desktop/appoftamologia-ios/AppOftamologia/AppOftamologia/MainViewController.swift"
+                  timestampString = "533141445.38503"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppOftamologia.MainViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; AppOftamologia.MainViewController"
+                  moduleName = "AppOftamologia"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/felipemartins/Desktop/appoftamologia-ios/AppOftamologia/AppOftamologia/MainViewController.swift"
+                  timestampString = "533141445.387175"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppOftamologia.MainViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;AppOftamologia.MainViewController&gt;"
+                  moduleName = "AppOftamologia"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/felipemartins/Desktop/appoftamologia-ios/AppOftamologia/AppOftamologia/MainViewController.swift"
+                  timestampString = "533141445.389313"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppOftamologia.MainViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;AppOftamologia.MainViewController&gt;"
+                  moduleName = "AppOftamologia"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/felipemartins/Desktop/appoftamologia-ios/AppOftamologia/AppOftamologia/MainViewController.swift"
+                  timestampString = "533141445.391365"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "192">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppOftamologia/GaleriaExamesViewController.swift"
+            timestampString = "533486028.286348"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppOftamologia/GaleryController.swift"
+            timestampString = "540941391.895849"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "collectionView(_:layout:sizeForItemAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppOftamologia.GaleryController.updateImages() -&gt; ()"
+                  moduleName = "AppOftamologia"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/felipemartins/Desktop/appoftamologia-ios/AppOftamologia/AppOftamologia/GaleryController.swift"
+                  timestampString = "537202960.770926"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "1588">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__ObjC.FIRDataSnapshot) -&gt; () in AppOftamologia.GaleryController.updateImages() -&gt; ()"
+                  moduleName = "AppOftamologia"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/felipemartins/Desktop/appoftamologia-ios/AppOftamologia/AppOftamologia/GaleryController.swift"
+                  timestampString = "537202960.773849"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "2164">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppOftamologia/GaleryController.swift"
+            timestampString = "540941391.896077"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
+            landmarkName = "collectionView(_:layout:sizeForItemAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppOftamologia.GaleryController.updateImages() -&gt; ()"
+                  moduleName = "AppOftamologia"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/felipemartins/Desktop/appoftamologia-ios/AppOftamologia/AppOftamologia/GaleryController.swift"
+                  timestampString = "537203134.456333"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "1588">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__ObjC.FIRDataSnapshot) -&gt; () in AppOftamologia.GaleryController.updateImages() -&gt; ()"
+                  moduleName = "AppOftamologia"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/felipemartins/Desktop/appoftamologia-ios/AppOftamologia/AppOftamologia/GaleryController.swift"
+                  timestampString = "537203134.462401"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "3144">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppOftamologia/GaleryController.swift"
+            timestampString = "540941391.8962851"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "updateImages()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppOftamologia/GaleryController.swift"
+            timestampString = "540941391.896408"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "updateImages()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppOftamologia/LoginViewController.swift"
+            timestampString = "541004487.6416219"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

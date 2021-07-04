@@ -1,0 +1,6 @@
+framework module Doppelganger {
+  umbrella header "Doppelganger-umbrella.h"
+
+  export *
+  module * { export * }
+}
